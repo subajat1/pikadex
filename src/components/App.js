@@ -17,7 +17,7 @@ class App extends Component {
   }
 
   handleOnClick(id) {
-    const proxyurl = `http://localhost:3000/`;
+    //const proxyurl = `http://localhost:3000/`;
     const url = `http://pokeapi.co/api/v2/pokemon/${id}/`;
 
     fetch(url)
